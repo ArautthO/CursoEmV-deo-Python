@@ -1,0 +1,6 @@
+frase = input('Escreva seu nome: ')
+nome = frase.split()
+print(frase.upper())
+print(frase.lower())
+print((len(frase)-(frase.count(' '))))
+print(len(nome[0]))
